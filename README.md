@@ -45,6 +45,7 @@ jupyter lab
 | Notebook | Description |
 |---|---|
 | `notebooks/02_mini_gpt.ipynb` | **Mini-GPT** (German): students choose a dataset (presets, their own `.txt` file, or pasted text), then tokenize it, build and train a small character-level transformer with a live loss chart, generate text, and explore attention and embeddings. The default CPU setting trains in a few minutes. |
+| `notebooks/03_mini_gpt_laden.ipynb` | **Mini-GPT laden** (German): load a model saved in step 8 of `02_mini_gpt.ipynb` (from `data/` or by upload) without retraining, view its settings and training history, then generate text and explore next-character probabilities, attention and embeddings. Also suited to comparing models trained on different texts or with different sizes. |
 
 
 - `notebooks/` – Jupyter notebooks
